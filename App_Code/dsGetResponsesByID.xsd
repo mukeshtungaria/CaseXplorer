@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGetResponsesByID" targetNamespace="http://tempuri.org/dsGetResponsesByID.xsd" xmlns:mstns="http://tempuri.org/dsGetResponsesByID.xsd" xmlns="http://tempuri.org/dsGetResponsesByID.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGetResponsesByID" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsGetResponsesByID" msprop:Generator_DataSetName="dsGetResponsesByID">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="up_paramsel_GetResponsesByResearchID" msprop:Generator_UserTableName="up_paramsel_GetResponsesByResearchID" msprop:Generator_RowDeletedName="up_paramsel_GetResponsesByResearchIDRowDeleted" msprop:Generator_TableClassName="up_paramsel_GetResponsesByResearchIDDataTable" msprop:Generator_RowChangedName="up_paramsel_GetResponsesByResearchIDRowChanged" msprop:Generator_RowClassName="up_paramsel_GetResponsesByResearchIDRow" msprop:Generator_RowChangingName="up_paramsel_GetResponsesByResearchIDRowChanging" msprop:Generator_RowEvArgName="up_paramsel_GetResponsesByResearchIDRowChangeEvent" msprop:Generator_RowEvHandlerName="up_paramsel_GetResponsesByResearchIDRowChangeEventHandler" msprop:Generator_TablePropName="up_paramsel_GetResponsesByResearchID" msprop:Generator_TableVarName="tableup_paramsel_GetResponsesByResearchID" msprop:Generator_RowDeletingName="up_paramsel_GetResponsesByResearchIDRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="intAnswerResearchID" msprop:Generator_UserColumnName="intAnswerResearchID" msprop:Generator_ColumnPropNameInRow="intAnswerResearchID" msprop:Generator_ColumnVarNameInTable="columnintAnswerResearchID" msprop:Generator_ColumnPropNameInTable="intAnswerResearchIDColumn" type="xs:int" />
+              <xs:element name="intAnswerQuestionID" msprop:Generator_UserColumnName="intAnswerQuestionID" msprop:Generator_ColumnPropNameInRow="intAnswerQuestionID" msprop:Generator_ColumnVarNameInTable="columnintAnswerQuestionID" msprop:Generator_ColumnPropNameInTable="intAnswerQuestionIDColumn" type="xs:int" />
+              <xs:element name="strResultQuestionText" msprop:Generator_UserColumnName="strResultQuestionText" msprop:Generator_ColumnPropNameInRow="strResultQuestionText" msprop:Generator_ColumnVarNameInTable="columnstrResultQuestionText" msprop:Generator_ColumnPropNameInTable="strResultQuestionTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="intAnswerUserID" msprop:Generator_UserColumnName="intAnswerUserID" msprop:Generator_ColumnPropNameInRow="intAnswerUserID" msprop:Generator_ColumnVarNameInTable="columnintAnswerUserID" msprop:Generator_ColumnPropNameInTable="intAnswerUserIDColumn" type="xs:int" />
+              <xs:element name="intAnswerResponseID" msprop:Generator_UserColumnName="intAnswerResponseID" msprop:Generator_ColumnPropNameInRow="intAnswerResponseID" msprop:Generator_ColumnVarNameInTable="columnintAnswerResponseID" msprop:Generator_ColumnPropNameInTable="intAnswerResponseIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="memAnswerOpenEnd" msprop:Generator_UserColumnName="memAnswerOpenEnd" msprop:Generator_ColumnPropNameInRow="memAnswerOpenEnd" msprop:Generator_ColumnVarNameInTable="columnmemAnswerOpenEnd" msprop:Generator_ColumnPropNameInTable="memAnswerOpenEndColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="autoResultResponseID" msprop:Generator_UserColumnName="autoResultResponseID" msprop:Generator_ColumnPropNameInRow="autoResultResponseID" msprop:Generator_ColumnVarNameInTable="columnautoResultResponseID" msprop:Generator_ColumnPropNameInTable="autoResultResponseIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="intResultResponseQuestion" msprop:Generator_UserColumnName="intResultResponseQuestion" msprop:Generator_ColumnPropNameInRow="intResultResponseQuestion" msprop:Generator_ColumnVarNameInTable="columnintResultResponseQuestion" msprop:Generator_ColumnPropNameInTable="intResultResponseQuestionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="intResultQuestionID" msprop:Generator_UserColumnName="intResultQuestionID" msprop:Generator_ColumnPropNameInRow="intResultQuestionID" msprop:Generator_ColumnVarNameInTable="columnintResultQuestionID" msprop:Generator_ColumnPropNameInTable="intResultQuestionIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="intResultResponseValue" msprop:Generator_UserColumnName="intResultResponseValue" msprop:Generator_ColumnPropNameInRow="intResultResponseValue" msprop:Generator_ColumnVarNameInTable="columnintResultResponseValue" msprop:Generator_ColumnPropNameInTable="intResultResponseValueColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="strResultResponseText" msprop:Generator_UserColumnName="strResultResponseText" msprop:Generator_ColumnPropNameInRow="strResultResponseText" msprop:Generator_ColumnVarNameInTable="columnstrResultResponseText" msprop:Generator_ColumnPropNameInTable="strResultResponseTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:up_paramsel_GetResponsesByResearchID" />
+      <xs:field xpath="mstns:autoResultResponseID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
