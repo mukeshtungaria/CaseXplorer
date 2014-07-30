@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.jurybank.com/</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Default.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Login/RegisterNewUser.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Venue/MyVenue.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Login/login.aspx?ReturnUrl=%2fResearch%2fResearchHome.aspx%3fHome%3d1&amp;Home=1</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Demonstrative_Exhibits/DemonstrativeHome.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Opening_Statements/OpeningStatementsMain.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Trial_Resources/TrialResources.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/ContactUS.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/FeedBack.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Privacy.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Login/PasswordRecovery.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Demonstrative_Exhibits/ViewExhibits.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Demonstrative_Exhibits/Exhibits.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Opening_Statements/ViewStatements.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Opening_Statements/OpeningStatements.aspx</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Demonstrative_Exhibits/ViewExhibit.aspx?qsExhibit=16</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Demonstrative_Exhibits/ViewExhibit.aspx?qsExhibit=15</loc>
+</url>
+<url>
+  <loc>http://www.jurybank.com/Common/ViewDocument.aspx?qsItem=&amp;qsType=2</loc>
+</url>
+</urlset>

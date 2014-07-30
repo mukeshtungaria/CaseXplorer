@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="" roles="*">
+      <siteMapNode url="~/Login/RegisterNewUser.aspx" title="Conduct Jury Research"  description="Conduct Jury Research" />
+      <siteMapNode url="~/Research/ResearchHome.aspx?Home=1" title="My Jury Research" description="My Jury Research" >
+        <siteMapNode url="~/Research/ResearchHome.aspx" title="Research Home"  description="Research Home"></siteMapNode>
+        <siteMapNode url="~/Research/ResearchName.aspx?New=True" title="Create New Survey" description="Create New Survey"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/Venue/MyVenue.aspx" title="About My Venue"  description="About My Venue" />
+      <siteMapNode url="~/Demonstrative_Exhibits/DemonstrativeHome.aspx" title="Demonstrative Exhibits" description="View and Contribute Demonstrative Exhibits"></siteMapNode>
+      <siteMapNode url="~/Opening_Statements/OpeningStatementsMain.aspx" title="Opening Statements" description="View and Contribute Opening Statements"></siteMapNode>
+      <siteMapNode url="~/Trial_Resources/TrialResources.aspx" title="Trial Resources" description="Trial Resources"></siteMapNode>
+      <siteMapNode url="~/Contact.aspx" title="Request Information" description="Request Information"></siteMapNode>
+    </siteMapNode>
+</siteMap>
